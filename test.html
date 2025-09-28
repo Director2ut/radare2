@@ -1,8 +1,30 @@
-<!DOCTYPE>
-<html>
-    <head>
-    </head>
-    <body>
-        <h1>Happy!</h1>
-    </body>
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <title>Object 태그 테스트</title>
+  <style>
+    object {
+      width: 100%;
+      height: 400px;
+      border: 1px solid #ccc;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body {
+      padding: 12px;
+      max-width: 900px;
+      margin: auto;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Object 태그로 텍스트 가져오기</h1>
+
+  <!-- 내부 서비스 텍스트 로드 -->
+  <object data="../flag" type="text/html">
+    해당 브라우저에서는 object 태그를 지원하지 않거나 콘텐츠를 로드할 수 없습니다.
+  </object>
+
+</body>
 </html>
